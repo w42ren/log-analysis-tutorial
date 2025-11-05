@@ -1,0 +1,55 @@
+Sep  4 01:12:08 web01 sshd[14321]: Invalid user admin from 203.0.113.5 port 53211
+Sep  4 01:12:08 web01 sshd[14321]: Failed password for invalid user admin from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:10 web01 sshd[14321]: Failed password for invalid user admin from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:12 web01 sshd[14321]: Failed password for invalid user admin from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:15 web01 sshd[14321]: Failed password for invalid user test from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:17 web01 sshd[14321]: Failed password for invalid user ubuntu from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:20 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:22 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:24 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:27 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:29 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:32 web01 sshd[14321]: Failed password for root from 203.0.113.5 port 53211 ssh2
+Sep  4 01:12:35 web01 sshd[14321]: error: maximum authentication attempts exceeded for root from 203.0.113.5 port 53211 ssh2 [preauth]
+Sep  4 01:12:35 web01 sshd[14321]: Disconnecting authenticating user root 203.0.113.5 port 53211: Too many authentication failures [preauth]
+
+Sep  4 02:03:41 web01 sshd[14502]: Accepted publickey for deploy from 192.0.2.10 port 42102 ssh2: RSA SHA256:Z5Qb... (comment)
+Sep  4 02:03:41 web01 sshd[14502]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep  4 02:08:12 web01 sshd[14502]: pam_unix(sshd:session): session closed for user deploy
+
+Sep  4 03:55:03 web01 sshd[15177]: Invalid user oracle from 198.51.100.23 port 54491
+Sep  4 03:55:04 web01 sshd[15177]: Failed password for invalid user oracle from 198.51.100.23 port 54491 ssh2
+Sep  4 03:55:06 web01 sshd[15177]: Failed password for invalid user oracle from 198.51.100.23 port 54491 ssh2
+Sep  4 03:55:08 web01 sshd[15177]: Failed password for root from 198.51.100.23 port 54491 ssh2
+Sep  4 03:55:10 web01 sshd[15177]: Connection closed by 198.51.100.23 port 54491 [preauth]
+
+Sep  4 08:14:55 web01 sshd[17602]: Accepted password for alice from 198.51.100.7 port 54022 ssh2
+Sep  4 08:14:55 web01 sshd[17602]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep  4 08:15:01 web01 sudo:     alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep  4 08:15:01 web01 sudo: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Sep  4 08:15:22 web01 sudo: pam_unix(sudo:session): session closed for user root
+Sep  4 08:37:18 web01 sshd[17602]: pam_unix(sshd:session): session closed for user alice
+
+Sep  4 09:02:11 web01 sshd[18211]: Failed password for invalid user guest from 203.0.113.5 port 53304 ssh2
+Sep  4 09:02:13 web01 sshd[18211]: Failed password for invalid user pi from 203.0.113.5 port 53304 ssh2
+Sep  4 09:02:15 web01 sshd[18211]: Failed password for root from 203.0.113.5 port 53304 ssh2
+Sep  4 09:02:18 web01 sshd[18211]: Failed password for root from 203.0.113.5 port 53304 ssh2
+Sep  4 09:02:21 web01 sshd[18211]: error: maximum authentication attempts exceeded for root from 203.0.113.5 port 53304 ssh2 [preauth]
+Sep  4 09:02:21 web01 sshd[18211]: Disconnecting authenticating user root 203.0.113.5 port 53304: Too many authentication failures [preauth]
+
+Sep  4 10:01:29 web01 sshd[18944]: Accepted publickey for bob from 198.51.100.42 port 49822 ssh2: ED25519 SHA256:Pk2c... (comment)
+Sep  4 10:01:29 web01 sshd[18944]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep  4 10:03:12 web01 sudo:      bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Sep  4 10:03:12 web01 sudo: pam_unix(sudo:session): session opened for user root by bob(uid=0)
+Sep  4 10:03:13 web01 sudo: pam_unix(sudo:session): session closed for user root
+Sep  4 10:20:04 web01 sshd[18944]: pam_unix(sshd:session): session closed for user bob
+
+Sep  4 11:47:51 web01 sshd[19701]: Invalid user admin from 192.0.2.44 port 60411
+Sep  4 11:47:52 web01 sshd[19701]: Failed password for invalid user admin from 192.0.2.44 port 60411 ssh2
+Sep  4 11:47:55 web01 sshd[19701]: Failed password for invalid user admin from 192.0.2.44 port 60411 ssh2
+Sep  4 11:47:58 web01 sshd[19701]: Failed password for root from 192.0.2.44 port 60411 ssh2
+Sep  4 11:48:00 web01 sshd[19701]: Connection closed by authenticating user root 192.0.2.44 port 60411 [preauth]
+
+Sep  4 12:30:00 web01 CRON[20555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  4 12:30:00 web01 CRON[20555]: (root) CMD (/usr/local/bin/backup.sh)
+Sep  4 12:30:00 web01 CRON[20555]: pam_unix(cron:session): session closed for user root
